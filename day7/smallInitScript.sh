@@ -7,9 +7,8 @@ createfile(){
     fallocate -l $1 $2
 }
 
-testDir="/home/sidneyverite/src/github/adventofcode2022/day7/test"
-
-cd ${testDir}
+mkdir removeme
+cd removeme
 mkdir a
 createfile 14848514 b.txt
 createfile 8504156 c.dat
