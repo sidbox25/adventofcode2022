@@ -23,4 +23,6 @@ on a line by line basis(?clean up script?)
 
 - get verified good cleanup method/script
 - create dir based on input
+- get size of files in dir and add it together
+(?how to represent result?/?or just shoot strait for the awnser?)
 - make script to get solution for problem
