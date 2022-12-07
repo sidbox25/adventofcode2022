@@ -36,7 +36,6 @@ applyRules(){
 
 while read line; do
     applyRules "${line}"
-    #echo $line;
 done <"${FILE}"
-
+applyRules "$(tail -n 1 ${FILE})"
 

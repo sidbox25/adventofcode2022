@@ -17,3 +17,4 @@ cd d
 fallocate -l 4060174 j
 fallocate -l 8033020 d.log
 fallocate -l 5626152 d.ext
+fallocate -l 7214296 k
