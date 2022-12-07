@@ -6,7 +6,7 @@ set -eou pipefail
 createfile(){
     fallocate -l $1 $2
 }
-
+rm -rf removeme
 mkdir removeme
 cd removeme
 mkdir a
